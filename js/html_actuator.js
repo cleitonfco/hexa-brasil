@@ -160,8 +160,8 @@ HTMLActuator.prototype.scoreTweetButton = function () {
   tweet.setAttribute("data-counturl", "http://cleitonfco.github.io/hexa-brasil/");
   tweet.textContent = "Tweetar";
 
-  var text = "Eu fiz " + this.score + " pontos no jogo Hexa Brasil, um jogo onde você " +
-             "relembra todos os títulos da seleção brasileira! #hexabrgame";
+  var text = "Eu fiz " + this.score + " pontos no jogo Hexa Brasil. Quem faz mais? " +
+             "#hexabrgame";
   tweet.setAttribute("data-text", text);
 
   return tweet;
